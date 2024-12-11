@@ -9,9 +9,9 @@ export const BaseUrl = 'https://codebase-backend-5djy.onrender.com'; // Ensure t
 const instance = axios.create({
     baseURL: BaseUrl,
     withCredentials: true, // Include credentials for cross-origin requests
-    // headers: {
-    //     'Content-Type': 'application/json',
-    // },
+    headers: {
+        'Content-Type': 'application/json',
+    },
 });
 
 
