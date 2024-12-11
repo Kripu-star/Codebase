@@ -51,7 +51,7 @@ const Delete = async (req, res) => {
         }
         // Delete the user's profile image if it exists
         if (ExistUser.profile) {
-            const profilePath = path.join('backend/public/images', ExistUser.profile);
+            const profilePath = path.join('public/images', ExistUser.profile);
             fs.promises.unlink(profilePath)
                 .then(() => console.log('Profile image deleted'))
                 .catch(err => console.error('Error deleting profile image:', err));
