@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-export const BaseUrl = 'http://localhost:5000'; // Ensure this is correct
+// export const BaseUrl = 'http://localhost:5000'; // Ensure this is correct
+export const BaseUrl = 'https://codebase-backend-5djy.onrender.com'; // Ensure this is correct
 // export const BaseUrl = 'https://codebaseserver.vercel.app'; // Ensure this is correct
 // export const BaseUrl = 'https://codebaseserver-7jmulmbtb-abhilash-kumars-projects-289775f5.vercel.app'; // Ensure this is correct
 // export const BaseUrl = 'https://codebaseserver-git-rohit-abhilash-kumars-projects-289775f5.vercel.app'; // Ensure this is correct

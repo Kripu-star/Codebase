@@ -28,7 +28,7 @@ app.use(cookieParser());
 
 // Corrected typo here: `corsOptions`
 const corsOptions = {
-    origin: true,
+    origin: "https://codebase-backend-5djy.onrender.com",
     credentials: true,
 };
 app.use(cors(corsOptions));
