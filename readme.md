@@ -129,3 +129,4 @@ Here’s a list of key API routes available in the **frontend**:
 
 Please visit `CONTRIBUTING.md` and follow the contribution guidlines.
 
+
