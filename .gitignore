@@ -6,6 +6,7 @@
 
 # Ignore profile images in backend directory
 **/backend/public/images/
+**/public/images/
 **/backend/package.json
 **/backend/vercel.json
 **/backend/package-lock.json
